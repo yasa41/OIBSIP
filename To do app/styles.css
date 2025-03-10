@@ -164,16 +164,3 @@ button:hover {
     text-decoration: line-through;
     opacity: 0.7;
 }
-
-.completed .button-group {
-    opacity: 1;
-}
-
-.task-disabled {
-    pointer-events: none;
-    opacity: 0.5;
-}
-
-.fade-in {
-    animation: fadeIn 0.3s ease-in-out;
-}
