@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(12, 12, 64, 0.7)), url("./img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+/* Hero Section */
+
+.hero h1 {
+    font-size: 3.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.hero p {
+    font-size: 1.2rem;
+    width: 700px;
+    margin: auto;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+/* Quote Section */
+.quote-section {
+    padding: 50px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 700px;
+    margin: 40px auto;
+    box-shadow: 0 4px 15px rgba(79, 73, 73, 0.15);
+}
+.quote-section .quote {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px rgba(248, 247, 244, 0.5);
+}
+.quote-section img {
+    width: 550px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+
+/* Biography Section */
+.bio-section {
+    padding: 60px 20px;
+    max-width: 700px;
+    margin: auto;
+}
+.bio-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+.bio-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    opacity: 0.9;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+/* Horizontal Line */
+hr {
+    width: 80%;
+    border: none;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 40px auto;
+}
+
+/* Footer */
+footer {
+    padding: 15px;
+    font-size: 1rem;
+    opacity: 0.8;
+    font-weight: 300;
+}
+
